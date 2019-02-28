@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import pprint
+import json
 
 # 함수 - 화장품 이름, 가격, 링크주소
 def get_product_info(box):
@@ -43,5 +45,5 @@ headers = {
 
 for page_number in range(0, 5):
     page_products = get_page_products(urls[page_number], headers)
-    print(len(page_products), page_products)
+    print(json.dumps(page_products, indent=4))
 

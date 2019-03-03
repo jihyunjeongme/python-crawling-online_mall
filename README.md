@@ -14,7 +14,7 @@
 - 대상: 파이썬 기본 지식, HTML 초급 정도의 지식을 가지고 있는 분에게 권장합니다.
 - 목표: 화장품명, 가격을 가져옵니다.
 
-## Overview
+## 크롤링 목표
 
 <img src="https://user-images.githubusercontent.com/43984584/53481417-8b7f0500-3ac0-11e9-9066-f1c260bc9865.png">
 
